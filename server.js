@@ -28,7 +28,7 @@ app.get("/about",(req,res)=>{
     res.send("this is the about page ");
 })
 
-app.get('/home',(req,res)=>{
+app.get("/home",(req,res)=>{
     // now we will create one more api 
     res.send("this is the home page ");
 })
